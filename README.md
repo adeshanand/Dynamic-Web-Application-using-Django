@@ -1,12 +1,12 @@
 This is a Dynamic Web Application build using Django and Travello theme.
 
-python -m venv test
-test\Scripts\activate.bat
-pip install -r requirements.txt
-PostgreSQL DB:- travello | postgres | postgres
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-login into localhost:8000/admin
-Create 3 destinations
-localhost:8000
+1. python -m venv test
+2. test\Scripts\activate.bat
+3. pip install -r requirements.txt
+4. PostgreSQL DB:- travello | postgres | postgres
+5. python manage.py migrate
+6. python manage.py createsuperuser
+7. python manage.py runserver
+8. login into localhost:8000/admin
+9. Create 3 destinations
+10. localhost:8000
